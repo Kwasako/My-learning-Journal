@@ -1,0 +1,88 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    font-size: 0.82rem;
+
+}
+
+.date{
+    font-size: 0.8rem;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-around;
+    grid-gap: 2em;
+    text-transform: uppercase;
+}
+
+.topic{
+    font-weight: bold;
+}
+
+.main{
+    padding: 2em;
+}
+
+.main-article{
+    padding-top: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    
+    
+}
+
+.blog-one{
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 2em; 
+}
+
+.blog-one-img{
+    width: 100%;
+}
+
+
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+.post{
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 676px){
+    
+    .potfolio{
+        font-size: 0.8rem;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    
+    .date{
+        font-size: 0.5rem;
+    }
+    .wide{
+        display: flex;
+        grid-gap: 2em;
+    }
+}
